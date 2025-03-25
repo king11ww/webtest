@@ -239,12 +239,13 @@ body{
 .buybutton:hover:active{
     transform: scale(0.95);
 }
-
-.sp:hover{
+.product:hover .sp{
+    filter: blur(4px);
+}
+.product .sp:hover{
     transform: matrix(1.1, 0, 0, 1.1, 0, 0);
     box-shadow: #555 0 0 5px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    filter: blur(0px);
 }
 .footer{
     display: block;

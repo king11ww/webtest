@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url('loginback.jpg');
-    background-size: cover;
-    background-position: center;
+#videoBG {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .container{
+    z-index: 1;
     font-family: sans-serif;
     display: flex;
     justify-content: center;

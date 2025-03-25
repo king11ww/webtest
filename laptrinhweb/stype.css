@@ -3,8 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url('back.jpg');
+#videoBG {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .header{
     background: #fff;

@@ -234,8 +234,8 @@
 }
 .text-icon{
     position: absolute;
-    top: 40%;
-    left: 160%;
+    top: 150%;
+    left: 0%;
     text-decoration: none;
     color: #fff;
     transition: 0,3s;

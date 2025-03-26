@@ -126,7 +126,7 @@
 }
 .menu_chose .sub_menu{
     position: absolute;
-    background: #fff;
+    background: #2596dc;
     top: 200%;
     left: 0px;
     height: 0;
@@ -141,8 +141,8 @@
     transition: 0.1s;
 }
 .sub_menu ul li a{
+    color: #fff;
     text-decoration: none;
-    color: #555;
     font-family: monospace;  
 }
 .menu .menu_chose:hover{
@@ -150,14 +150,14 @@
     color: #fff;
 }
 .menu .menu_chose:hover .sub_menu{
-    border-top: 3px solid #2596dc;
+    border-top: 3px solid #fff;
     top: 100%;
     opacity: 1.0;
     height: auto;
 }
 .sub_menu ul li:hover{
-    border-bottom:  1px solid #2596dc;
-    color: #2596dc;
+    border-bottom:  1px solid #fff;
+    color: silver;
 }
 .footer{
     display: block;

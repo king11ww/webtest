@@ -115,9 +115,12 @@
 .sub_menu{
     position: absolute;
     background: #fff;
-    top: 100%;
+    top: 200%;
     left: 0px;
-    display: none;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    opacity: 0.5;
 }
 .sub_menu ul li{
     list-style-type: none;
@@ -132,15 +135,16 @@
 }
 .menu .menu_chose p:hover{
     color: #2596dc;
-    border-left: 3px solid #2596dc;
-    border-right: 3px solid #2596dc;
 }
 .menu .menu_chose:hover .sub_menu{
     border-top: 3px solid #2596dc;
-    display: block;
+    top: 100%;
+    opacity: 1.0;
+    height: auto;
 }
 .sub_menu ul li:hover{
     border-bottom:  1px solid #2596dc;
+    
     color: #2596dc;
 }
 .content{

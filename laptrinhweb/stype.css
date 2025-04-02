@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    position: relative;
+    width: 100%;
+}
 #videoBG {
     width: 100%;
     position: fixed;
@@ -111,6 +115,10 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.sub_menu{
+    width: 100%;
+    text-align: center;
+}
 .menu .menu_chose:nth-child(1){
     margin-left: 15%;
 }
@@ -168,6 +176,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-right: 30px;
 }
 .footer-content{
     display: flex;
@@ -273,4 +282,57 @@
 .icon a:hover .layershadow4{
     opacity: 0.2;
     transform: rotate(-35deg) skew(20deg) translate(-20px, 20px);
+}
+.shopcart{
+    display: flex;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #2596dc;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000;
+    transition: 0.2s;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.shopcart a i{
+    position: relative;
+    color: #fff;
+}
+.shopcart a{
+    text-decoration: none;
+}
+.shopcart a .shopcart_value{
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+.shopcart a .shopcart_moneys{
+    display: none;
+    width: 0px;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+}
+.shopcart:hover{
+    width: 250px;
+}
+.shopcart:hover .shopcart_moneys{
+    display: inline-block;
+    width: 200px;
+}
+.shopcart:hover .shopcart_value{
+    top: -10%;
+    right: 75%;
 }

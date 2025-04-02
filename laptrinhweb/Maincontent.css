@@ -70,7 +70,7 @@
     margin: 50px auto;
     text-align: center;
 }
-.content .mainproduct span{
+.content .mainproduct span.title-product{
     display: block;
     font-weight: bold;
     font-family: Arial;
@@ -97,7 +97,7 @@
     border: 1px solid #eee;
     border-radius: 10px;
     padding: 15px;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .sp img{
     width: 274px;    
@@ -124,29 +124,16 @@
     text-align: center;
     padding: 10px 30px;
     background: #2596dc;
-    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
     transition: 0.1s;
 }
-.product_info{
-    display: none;
-    background: #eee;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 100px;
-    height: 100%;
-    color: red;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    transition: 0.5s;
-}
-.product_info ul li{
-    list-style-type: none;
-    padding: 5px 0;
+.buybutton span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
 }
 .buybutton:hover{
     background: #70b1d9;

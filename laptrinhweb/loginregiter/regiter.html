@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stype.css">
+    <script src="../js/register.js"></script>
     <title>Register</title>
 </head>
 <body>
     <div class="container">
         <div class="register">
-            <h1>Đăng ký</h1>
-            <form>
-                <label for="txtName">Tên của bạn</label>
-                <input type="text" id="txtName"  required placeholder="Nhập tên của bạn">
-                <label for="txtphone">Số điện thoại</label>
-                <input type="tel" id="txtphone" required placeholder="Nhập số điện thoại của bạn">
-                <label for="txtUserName">Tên người dùng</label>
-                <input type="text" id="txtUserName" required placeholder="Nhập tên người dùng">
-                <label for="txtPassword">Mật khẩu</label>
-                <input type="password" id="txtPassword" required placeholder="Nhập mật khẩu">
-                <label for="txtPasswordagain">Nhập lại mật khẩu</label>
-                <input type="password" id="txtPasswordagain" required placeholder="Nhập lại mật khẩu">
+            <h1>Register</h1>
+            <div id="error"></div>
+            <form id="form">
+                <label for="txtName">Your name</label>
+                <input type="text" id="txtName" required autofocus>
+                <label for="txtphone">Phone number <div id="errorPhone"></div></label>
+                <input type="tel" id="txtphone" required>
+                <label for="txtUserName">Username</label>
+                <input type="text" id="txtUserName" required>
+                <label for="txtPassword">Password <div id="errorPassword"></div></label>
+                <input type="password" id="txtPassword" required>
+                <label for="txtPasswordagain">Password again <div id="errorPasswordagain"></div></label>
+                <input type="password" id="txtPasswordagain" required>
             
                 <div class="btnLogin">
-                    <button type="submit">Đăng ký</button>
+                    <button type="submit">Register</button>
                 </div>
             </form>
             <div class="login_link">
-                <p><span>Đã có tài khoản? </span><a href="login.html">Đăng nhập</a></p>
+                <p><span>Already have an account? </span><a href="login.html">Login now</a></p>
             </div>
         </div>
         <video id="videoBG" poster="../img/podter.jpg" autoplay muted loop>

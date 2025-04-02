@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stype.css">
+    <script src="../js/login.js"></script>
     <title>login</title>
 </head>
 <body>
     <div class="container">
         <div class="login">
             <h1>login</h1>
+            <div id="error"></div>
             <form>
                 <label for="txtUserName">Username</label>
-                <input type="text" id="txtUserName"required>
+                <input type="text" id="txtUserName"required autofocus>
                 
                 <label for="txtPassword">Password</label>
                 <input type="password" id="txtPassword" required>

@@ -108,6 +108,22 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px #000;
 }
+#error{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: red;
+    padding: 5px 0;
+}
+#errorPhone, 
+#errorPassword, 
+#errorPasswordagain{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: red;
+    padding: 5px 0;
+}
 .regiter input{
     display: block;
 }
@@ -138,7 +154,8 @@
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 5px;
+    padding: 10px 5px 0 5px;
+    border-radius: 0px;
 }
 .login_link{
     text-align: center;
